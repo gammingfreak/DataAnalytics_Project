@@ -15,17 +15,42 @@ R Studio
 Data for this project is in the data directory.
 ```
 
-### Installing
+### Steps Performed
 
 As the data contains a lot of missing values we first impute the missing vaules using the R Code : Data_Imputation.R.
 
-Say what the step will be
+Correlation Heatmap before Imputation
+![alt text](https://github.com/gammingfreak/DataAnalytics_Project/blob/master/Visualizations/Figure%202.11%20Correlation%20heatmap%20of%20original%20X%E2%80%99s.png)
 
+Figure 2.1 Missing data pattern plot
+![alt text](https://raw.githubusercontent.com/gammingfreak/DataAnalytics_Project/master/Visualizations/Figure%202.1%20Missing%20data%20pattern%20plot.bmp)
+
+Figure 2.7 mice imputation iteration density plot
+![alt text](https://github.com/gammingfreak/DataAnalytics_Project/blob/master/Visualizations/Figure%202.7%20mice%20imputation%20iteration%20density%20plot.png)
 
 Post that we implement the predictive model of decision tree and random forest to fit the model
 
+Figure 3.1 DT party plot without any threshold
+![alt text](https://github.com/gammingfreak/DataAnalytics_Project/blob/master/Visualizations/Figure%203.1%20DT%20party%20plot%20without%20any%20threshold..jpg)
+
+
+Figure 3.3 CP Plot of full DT
+![alt text](https://github.com/gammingfreak/DataAnalytics_Project/blob/master/Visualizations/Figure%203.3%20CP%20Plot%20of%20full%20DT.png)
+
+
+Figure 3.4 Pruned DT with CP=0.021
+![alt text](https://github.com/gammingfreak/DataAnalytics_Project/blob/master/Visualizations/Figure%203.4%20Pruned%20DT%20with%20CP%3D0.021.png)
+
 
 The RandomForest model provides an accuracy of 77%.
+
+
+Figure 3.6 RF R output..PNG
+![alt text](https://github.com/gammingfreak/DataAnalytics_Project/blob/master/Visualizations/Figure%203.6%20RF%20R%20output..PNG)
+
+
+Figure 3.7 RF Error vs number of trees.jpg
+![alt text](https://github.com/gammingfreak/DataAnalytics_Project/blob/master/Visualizations/Figure%203.7%20RF%20Error%20vs%20number%20of%20trees.jpg)
 
 ## Authors
 
